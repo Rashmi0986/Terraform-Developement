@@ -1,5 +1,5 @@
 provider "aws" {
-    region = "us-east-1"  # Set your desired AWS region
+    region = "${var.region}"  # Set your desired AWS region
 }
 
 resource "aws_instance" "example" {
@@ -7,4 +7,11 @@ resource "aws_instance" "example" {
     instance_type = "t2.micro"
     subnet_id = "subnet-0aa4846c85e3949c9"
     key_name = "aws_login"
+
+ tags {
+    Name = "${var.instance_name}"
+    Test = "${var.test_label}"
+  }
 }
+
+
