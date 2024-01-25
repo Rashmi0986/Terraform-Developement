@@ -1,1 +1,14 @@
-T
+https://developer.hashicorp.com/terraform/tutorials/configuration-language/test
+
+
+https://github.com/datacisions/terraform-examples/blob/master/terratest-example/test/ec2provisioning_test.go
+
+
+https://developer.hashicorp.com/terraform/tutorials/configuration-language/test
+
+https://www.hashicorp.com/blog/testing-hashicorp-terraform
+
+https://datacisions.com/2018/07/14/terraform-and-terratest-aws-example/
+
+
+https://learn.microsoft.com/en-us/azure/developer/terraform/test-modules-using-terratest
