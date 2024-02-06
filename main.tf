@@ -8,7 +8,7 @@ resource "aws_instance" "example" {
     subnet_id = "${var.subnet_id}"
     key_name = "aws_login"
 
- tags {
+ tags = {
     Name = "${var.instance_name}"
     Test = "${var.test_label}"
   }
